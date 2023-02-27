@@ -6,7 +6,7 @@ export const Navbar = () => {
 
 
   return (
-    <div>
+    <div className='fixed-top'>
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid " >
    <div>
