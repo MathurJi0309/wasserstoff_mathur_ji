@@ -16,16 +16,7 @@ const projection = geoWinkel3()
 
   const [position, setPosition] = useState({ coordinates: [0, 0], zoom: 1 });
 
-  function handleZoomIn() {
-    if (position.zoom >= 4) return;
-    setPosition((pos) => ({ ...pos, zoom: pos.zoom * 2 }));
-  }
-
-  function handleZoomOut() {
-    if (position.zoom <= 1) return;
-    setPosition((pos) => ({ ...pos, zoom: pos.zoom / 2 }));
-  }
-
+ 
   function handleMoveEnd(position) {
     setPosition(position);
   }
@@ -40,7 +31,7 @@ const projection = geoWinkel3()
       <Geographies geography={geoUrl} className="colorworld">
         {({ geographies }) =>
           geographies.map((geo) => (
-            <Geography key={geo.rsmKey} geography={geo} fill="#808080" stroke="#124536"/>
+            <Geography key={geo.rsmKey} geography={geo} fill="#F4C430" stroke="#124536"/>
           ))
         }
     </Geographies>
@@ -59,9 +50,10 @@ const projection = geoWinkel3()
         </text>
       </Annotation>
       <Marker coordinates={[-102, 38]} fill="#800000">
-        <text textAnchor="middle" fill="#FFFFFF">
+        {/* <text textAnchor="middle" fill="#FFFFFF">
           USA
-        </text>
+        </text> */}
+
       </Marker>
       <Marker coordinates={[-103, 25]} fill="#777">
         <text textAnchor="middle" fill="#F53">
@@ -79,3 +71,55 @@ const projection = geoWinkel3()
     </div>
 )
 }
+
+
+// import React, { memo } from "react";
+// import {
+//   ZoomableGroup,
+//   ComposableMap,
+//   Geographies,
+//   Geography
+// } from "react-simple-maps";
+
+// const MapChart = ({ setTooltipContent }) => {
+//   return (
+//     <div data-tip="">
+//       <ComposableMap>
+//         <ZoomableGroup>
+//           <Geographies geography="/features.json">
+//             {({ geographies }) =>
+//               geographies.map((geo) => (
+//                 <Geography
+//                   key={geo.rsmKey}
+//                   geography={geo}
+//                   onMouseEnter={() => {
+//                     setTooltipContent(`${geo.properties.name}`);
+//                   }}
+//                   onMouseLeave={() => {
+//                     setTooltipContent("");
+//                   }}
+//                   style={{
+//                     default: {
+//                       fill: "#D6D6DA",
+//                       outline: "none"
+//                     },
+//                     hover: {
+//                       fill: "#F53",
+//                       outline: "none"
+//                     },
+//                     pressed: {
+//                       fill: "#E42",
+//                       outline: "none"
+//                     }
+//                   }}
+//                 />
+//               ))
+//             }
+//           </Geographies>
+//         </ZoomableGroup>
+//       </ComposableMap>
+//     </div>
+//   );
+// };
+
+// export default memo(MapChart);

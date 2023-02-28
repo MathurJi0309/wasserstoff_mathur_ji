@@ -45,3 +45,469 @@
 .colorworld{
   color: #61dafb;
 }
+
+.DesignFaster{
+  position: absolute;
+  width: 218px;
+  height: 44px;
+  left: 59px;
+  top: calc(50% - 44px/2 - 427px);
+  
+  /* Headline / H4 */
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 44px;
+  /* identical to box height, or 129% */
+  
+  letter-spacing: -0.44px;
+  
+  color: #000000;
+}
+
+.bubblechart {
+  height: 50vh;
+  width: 60vw;position: absolute;
+  right: 10%;top: 15%;
+  border-radius: 18px;
+background-color: #ffff;  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.bubbles {
+  height:100%;
+  width: 70%;
+  flex-direction: column;
+  background: #eef1fa;border-radius:30px;
+
+
+
+
+}
+.bubbles   .data {
+  height: 62px;
+  width: 600px;margin-top: 0.5rem;display: flex;  justify-content: space-between;
+
+}
+
+.bubbles .data   div{
+  height: 100%;width: 140px;text-align: center;
+
+
+}
+
+.bubbles .data div   span{
+  color: #383874;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.bubbles .data div   .title{
+  font-size: 12px;
+} 
+
+
+.bubbles   .time-period {
+  height: 5vh;
+  width: 300px;
+  background: #fff;margin-top: 1rem;
+  display: flex;justify-content: space-around;align-items: center;
+  border-radius: 15px;
+}
+
+.bubbles   .all-bubles {
+  width: 80%;
+  height: 65vh;margin: 1rem;
+  position: relative;
+
+}
+
+.bubbles .all-bubles   div {
+  border-radius: 50%;
+  position: absolute;display: flex;justify-content: center;align-items: center; flex-direction: column; color: #ffff;
+}
+
+.bubbles .all-bubles   .center-div {
+  height: 370px;
+  width: 370px;
+  border-radius: 50%;
+  background: #ffffff;box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 10px;
+
+}
+
+.bubbles .all-bubles .center-div .innermost {
+  height: 180px;
+  width: 180px;
+  background: radial-gradient(#838fff 55%, #e3e6ff);
+}
+
+.bubbles .all-bubles   .yellow{
+  height: 90px; width: 90px; background: linear-gradient(#FFB84D,#ee7b39);left: 26%;
+}
+
+.bubbles .all-bubles   .purple{
+  height: 80px;width: 80px; background: radial-gradient(#6AE4FF 55%,
+#4A93FF,#4a4fec);
+  position: absolute;
+}
+
+.bubbles .all-bubles   .purple1{
+  top: 2%;
+  right: 30%; height: 70px;
+  width: 70px;
+}
+
+.bubbles .all-bubles  .purple2{
+  top: 42%;
+  right: 25%;
+}
+
+.bubbles .all-bubles   .purple3{
+  top: 12%;
+  left: 10%; height: 50px;
+  width: 50px;
+}
+
+.bubbles .all-bubles   .purple4{
+    bottom: 25%;
+    left: 28%; height: 30px;
+    width: 30px;
+  }
+
+  .bubbles .all-bubles   .blue {
+    height: 100px;
+    width: 100px;
+    background: radial-gradient(#e3e6ff 5%, #838fff 45%, #030092);
+  }
+
+  .bubbles .all-bubles 
+  .blue1 {
+    left: 30%;
+    top: 2%;
+  }
+
+  .bubbles .all-bubles 
+  .blue2 {
+    right: 30%;
+    bottom: 2%;
+  }
+
+  .bubbles .all-bubles  .blue3 {
+    right: 20%;
+    top: 12%; height: 90px;
+    width: 90px;
+  }
+
+.bubbles .all-bubles   .blue4 {
+    left: 30%;
+    bottom: 2%;
+     height: 70px;
+    width: 70px;
+  }
+
+.bubbles .all-bubles   .blue5 {
+    right: 10%;
+    bottom: 12%; height: 50px;
+    width: 50px;
+  }
+
+.bubbles .all-bubles  .pink {
+    height: 120px;
+    width: 120px;
+    background: radial-gradient(#ffe3d3 5%, #d14dd3 65%);
+  }
+
+  .bubbles .all-bubles   .first {
+    left: 12%;
+  }
+
+  .bubbles .all-bubles 
+  .second {
+    right: 10%;
+  }
+
+.bubbles .all-bubles   .third {
+    top: 5%;
+  }
+
+
+
+  .bubbles .all-bubles   .forth {
+    bottom: 2%;
+  }
+
+
+  .designfaster {
+    width: 30vw;
+    height: auto;
+    text-align: center;
+
+
+
+
+
+  }
+
+  .designfaster     .headingDesign {
+    font-family: "poppins";
+    letter-spacing: -0.44px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+
+  .designfaster     .cirle-earning {
+    width: 75%;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    height: 40vh;
+    border-radius: 15px;
+    border: 1px solid lightgray;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+
+
+  }
+
+  .designfaster .cirle-earning     .circles {
+    height: 86px;
+    width: 86px;
+    border-radius: 50%;
+    background: lightgray;
+    margin: auto;
+
+  }
+
+  .designfaster .cirle-earning .circles     .innercircle {
+    height: 78px;
+    width: 78px;
+    background: #ffff;
+    border-radius: 50%;
+
+  }
+
+  .designfaster .cirle-earning .circles .innercircle     .innermostcircle {
+    height: 49px;
+    width: 49px;
+    background: lightgray;
+    border-radius: 50%;
+  }
+
+  .designfaster .cirle-earning     p {
+    font-family: "roboto";
+    color: #383874;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    align-items: center;
+  }
+
+  .designfaster .cirle-earning     .updown {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;line-height: 25px;
+  }
+
+.designfaster .cirle-earning  .compare {
+    font-family: "Roboto";
+    font-size: 12px;
+    line-height: 16px;
+    color: #383874;
+  }
+
+  .designfaster     .types {
+    height: auto;
+    width: 20vw;
+    margin: 0.5rem auto;
+   
+  }
+
+  .designfaster .types  div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.3rem 0;
+    font-size: 14px;
+  }
+
+  .designfaster     .bg-blue {
+    height: 19vh;
+    border-radius: 15px;
+    width: 75%;
+    margin: auto;
+    background: #8676ff;
+
+  }
+
+  .designfaster .bg-blue     div {
+    height: 50%;
+    padding: 0.3rem;
+  }
+
+  .designfaster     .acc-data {
+    width: 75%;
+    border-radius: 15px;
+    padding: 0.3rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 0.5rem;
+  }
+
+  .sidebar {
+    position: absolute;
+    top: 4rem;
+    min-height: 80vh;
+    width: 35%;
+    padding-left: 4%;
+
+
+
+  }
+
+  .sidebar     .div1 {
+    color: #383874;
+
+ 
+  }
+  .sidebar .div1     .users {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.15px;
+
+  }
+
+  .sidebar .div1 .users     span {
+    font-family: Roboto;
+    padding-left: 1rem;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 1.5px;
+  }
+
+  .sidebar .div1    .total {
+    font-family: Poppins;
+    font-size: 52px;
+    font-weight: 500;
+    letter-spacing: -1.75px;
+  }
+
+  .sidebar     .distributes {
+    width: 100%;
+    margin-top: 1rem;
+    color: #383874;
+
+  }
+
+  .sidebar .distributes     .div2 {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2rem;
+
+
+  }
+
+  .sidebar .distributes .div2     .totalearnicon {
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sidebar .distributes .div2     .total-earn {
+    font-size: 18px;
+    line-height: 32px;
+    padding-left: 1rem;
+
+
+  }
+
+  .sidebar .distributes .div2  .total-earn   .heading {
+    font-family: Roboto;
+    font-weight: 400;
+    letter-spacing: 0.43px;
+  }
+
+  .sidebar .distributes .div2 .total-earn     .count {
+    font-family: Poppins;
+    font-weight: 600;
+    letter-spacing: 0.15px;
+  }
+
+  .sidebar     .percentage-circle {
+    height: 12vh;
+    width: 400px;
+    display: flex;
+
+  }
+
+  .sidebar .percentage-circle     .active {
+    width: 50%;
+    height: 100%;
+    display: flex;
+
+  }
+
+  .sidebar .percentage-circle .active     .active-users {
+    height: 59px;
+    width: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+  }
+
+  .sidebar .percentage-circle .active .active-users     div {
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    background: #e2e4f0;
+    border-radius: 50%;
+  }
+
+  .navbar {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+
+
+  }
+
+  .navbar     .logo-name {
+    height: auto;
+    display: flex;
+
+
+  }
+  
+
+  .footer {
+    height: 38px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    color: #5a5a89;
+    position: fixed;
+    bottom: 0;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 1.5px;
+  }
